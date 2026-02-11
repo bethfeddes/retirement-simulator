@@ -38,14 +38,12 @@ public class Main {
 	}
 
 	// Simple helper method for getting input
-	// Helper to get user input
 	private static String getUserInput(Scanner sc, String prompt) {
 		System.out.println(prompt);
 		return sc.nextLine();
 	}
 	
 	// Helper method to read/validate an integer within a range
-	// Helper method to read integer in range
 	private static int readIntInRange(Scanner sc, String prompt, int min, int max) {
 		
 		Integer value = null;
@@ -78,7 +76,6 @@ public class Main {
 	}
 	
 	// Helper method to read/validate a double within a range
-	// Helper method to read double
 	private static double readDoubleInRange(Scanner sc, String prompt, double min, double max) {
 		
 		Double value = null;
@@ -119,7 +116,6 @@ public class Main {
 	}
 
 	// Helper method to run the logic/calculations/display table of simulation
-	// Helper method to run simulation
 	private static void runSimulation(int age, int retirement, int initial, double annInterestRate, int compoundOption, double annualContribution,
 			double annualContributionIncrease) {
 		
@@ -177,7 +173,6 @@ public class Main {
 	}
 	
 	// Helper get Y/N answer from user
-	// Helper method to let user choose to run simulation again
 	private static Boolean askRunAgain(Scanner sc) {
 		
 		do {
@@ -199,7 +194,6 @@ public class Main {
 		
 	}
 	
-	// Custom exception
 	// Custom exception
 	static class OutOfRangeException extends Exception {
 		private static final long serialVersionUID = 1L;
