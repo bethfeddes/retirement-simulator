@@ -12,6 +12,7 @@ JDK 8 or higher
 
 ## Assumptions
 Rates are entered as whole number percentages.
+
 Operating systems tested: Windows 11
 
 ## Tested Compounding Options
