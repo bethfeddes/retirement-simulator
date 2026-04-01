@@ -16,6 +16,6 @@ Rates are entered as whole-number percentages.
 Operating systems tested: Windows 11
 
 ## Tested Compounding Options
-Annual
-Monthly
-Daily
+Annual  
+Monthly  
+Daily  
